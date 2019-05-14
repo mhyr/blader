@@ -1,0 +1,2 @@
+# blader
+Semi_Automatic_Data_Labeling_for_Deep_Learning_Applications: A_Case_Study_on_Wind_Turbine_Blade_Segmentation

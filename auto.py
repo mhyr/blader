@@ -1,10 +1,4 @@
 #!/usr/bin/env python3
-## This repository contains the reference implementation for my
-## master thesis entiteled " Semi Automatic Data Labeling for
-## Deep Learning Applications: A Case Study on Wind Turbine Blade Segmentation"
-## at Bremen and Bremer Institut für Produktion und Logistik GmbH (BIBA)
-## Examiners: Prof. Dr.-Ing. Walter Lang, Prof. Dr.-Ing. Michael Freitag
-## Supervisors: Benjamin Staar and Dimitri Denhof
 
 ## ____  _ _
 ##| __ )(_) |__   __ _

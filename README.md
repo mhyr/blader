@@ -5,7 +5,7 @@ Examiners: Prof. Dr.-Ing. Walter Lang, Prof. Dr.-Ing. Michael Freitag
 Supervisors: Benjamin Staar and Dimitri Denhof
 
 
-To get access to the dataset, contact  
+To get access to the dataset, contact  [me](mailto:mahyar.p@gmail.com).
 
 [auto.py](auto.py) is currently set to run in the fully automatic mode that replaces the human in the loop with an auto evaluator.
 

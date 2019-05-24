@@ -21,16 +21,16 @@ from bibalabel.automatic import *
 
 if __name__ == '__main__':
 
-    parameters1 = ['random', 72, 20, 'cosine', 10, 0.997, False, 'none']
-    parameters2 = ['random', 424, 20, 'cosine', 10, 0.997, False, 'combine']
-    parameters3 = ['random', 257, 20, 'cosine', 10, 0.997, False, 'k-means++', 10, 'combine']
-    parameters4 = ['random', 1148, 20, 'cosine', 10, 0.997, False, 'k-means++', 10, 'combine']
-    parameters5 = ['random', 348, 20, 'cosine', 10, 0.997, False, 'k-means++', 10, 'combine']
-    parameters6 = ['random', 1630, 20, 'cosine', 10, 0.997, False, 'k-means++', 10, 'combine']
-    parameters7 = ['random', 1903, 20, 'cosine', 10, 0.997, False, 'k-means++', 10, 'combine']
-    parameters8 = ['random', 844, 20, 'cosine', 10, 0.997, False, 'k-means++', 10, 'combine']
-    parameters9 = ['random', 32, 20, 'cosine', 10, 0.997, False, 'k-means++', 10, 'combine']
-    parameters10 = ['random', 1283, 20, 'cosine', 10, 0.997, False, 'k-means++', 10, 'combine']
+    parameters1 = ['kmeans', 72, 20, 'cosine', 10, 0.997, False, 'combine']
+    parameters2 = ['kmeans', 424, 20, 'cosine', 10, 0.997, False, 'combine']
+    parameters3 = ['kmeans', 257, 20, 'cosine', 10, 0.997, False, 'combine']
+    parameters4 = ['kmeans', 1148, 20, 'cosine', 10, 0.997, False, 'combine']
+    parameters5 = ['kmeans', 348, 20, 'cosine', 10, 0.997, False, 'combine']
+    parameters6 = ['kmeans', 1630, 20, 'cosine', 10, 0.997, False, 'combine']
+    parameters7 = ['kmeans', 1903, 20, 'cosine', 10, 0.997, False, 'combine']
+    parameters8 = ['kmeans', 844, 20, 'cosine', 10, 0.997, False, 'combine']
+    parameters9 = ['kmeans', 32, 20, 'cosine', 10, 0.997, False, 'combine']
+    parameters10 = ['kmeans', 1283, 20, 'cosine', 10, 0.997, False, 'combine']
 
 
     #   parameters = [method, random_seed, number, distance, iteration, stricktness, kmeansReset, postprocessing]
@@ -60,12 +60,12 @@ if __name__ == '__main__':
 
 
     autoPilot(parameters1)
-    #autoPilot(parameters2)
-    #autoPilot(parameters3)
-    #autoPilot(parameters4)
-    #autoPilot(parameters5)
-    #autoPilot(parameters6)
-    #autoPilot(parameters7)
-    #autoPilot(parameters8)
-    #autoPilot(parameters9)
-    #autoPilot(parameters10)
+    autoPilot(parameters2)
+    autoPilot(parameters3)
+    autoPilot(parameters4)
+    autoPilot(parameters5)
+    autoPilot(parameters6)
+    autoPilot(parameters7)
+    autoPilot(parameters8)
+    autoPilot(parameters9)
+    autoPilot(parameters10)

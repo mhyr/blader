@@ -4,6 +4,9 @@ This repository contains the reference implementation for my master thesis entit
 Examiners: Prof. Dr.-Ing. Walter Lang, Prof. Dr.-Ing. Michael Freitag 
 Supervisors: Benjamin Staar and Dimitri Denhof
 
-The program is currently set to run in the fully automatic mode that replaces the human in the loop with an auto evaluator.
 
-This program was run on windows platform and has not been tested on Linux
+To get access to the dataset, contact  
+
+[auto.py](auto.py) is currently set to run in the fully automatic mode that replaces the human in the loop with an auto evaluator.
+
+This program was run on windows platform and has not been tested on Linux.
